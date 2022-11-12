@@ -1,0 +1,11 @@
+package bookstore.demo.dao;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import bookstore.demo.model.Book;
+
+
+
+public interface BookRepository extends JpaRepository<Book, Long>{
+
+}
